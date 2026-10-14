@@ -1,0 +1,4 @@
+model,episodes,mean_reward,reward_std,episodes_score_ge_200,score_rate_percent,detected_landings,landing_rate_percent
+Baseline,100,244.66539503123542,57.76308100301772,90,90.0,90,90.0
+Shaped,100,152.01767005942358,96.46355968024956,46,46.0,79,79.0
+Reward hacking,100,-119.06354281196985,23.408515412807336,0,0.0,0,0.0
