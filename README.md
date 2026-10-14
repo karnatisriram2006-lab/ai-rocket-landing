@@ -65,13 +65,13 @@ The PPO configuration used:
 
 Each model was evaluated over 100 episodes using seeds 1000 through 1099 and deterministic policy actions. Evaluation used the original, unmodified Lunar Lander environment.
 
-| Metric | Baseline | Shaped | Reward hacking |
-|---|---:|---:|---:|
-| Mean reward | 244.67 | 152.02 | -119.06 |
-| Reward standard deviation | 57.76 | 96.46 | 23.41 |
-| Episodes scoring at least 200 | 90/100 | 46/100 | 0/100 |
-| Score-threshold rate | 90% | 46% | 0% |
-| Detected landing rate | 90% | 79% | 0% |
+| Metric                        | Baseline | Shaped | Reward hacking |
+| ----------------------------- | -------: | -----: | -------------: |
+| Mean reward                   |   244.67 | 152.02 |        -119.06 |
+| Reward standard deviation     |    57.76 |  96.46 |          23.41 |
+| Episodes scoring at least 200 |   90/100 | 46/100 |          0/100 |
+| Score-threshold rate          |      90% |    46% |             0% |
+| Detected landing rate         |      90% |    79% |             0% |
 
 The baseline agent achieved the strongest results in this experiment. The shaped agent demonstrated partial success but had greater variability in episode rewards. The reward-hacking agent performed poorly under the original reward function.
 
@@ -79,7 +79,8 @@ The detected landing rate is based on the evaluator's terminal-reward indicator 
 
 ## Results and Graphs
 
-The graphs are generated from the episode-level evaluation CSV files.
+The following graphs compare the three trained agents over
+100 evaluation episodes each.
 
 ### Mean Reward
 
@@ -193,5 +194,11 @@ The results motivate further investigation into reward shaping, policy evaluatio
 
 ## Author
 
-Add your name, GitHub profile, and project repository link here.
+**Karnati Sriram**
+
+GitHub: [karnatisriram2006-lab](https://github.com/karnatisriram2006-lab)
+
+Project Repository:
+[ai-rocket-landing](https://github.com/karnatisriram2006-lab/ai-rocket-landing)
+
 # ai-rocket-landing
